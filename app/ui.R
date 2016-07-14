@@ -5,7 +5,7 @@ library(shinydashboard)
 
 dashboardPage(
   skin = ("red"),
-  dashboardHeader(title = "Response-Times",
+  dashboardHeader(title = "Response Times",
                   
                   # Email Sharing link
                   tags$li(class = "dropdown",
@@ -74,6 +74,7 @@ dashboardPage(
   
   dashboardBody(
     tags$head(includeScript("www/js/google-analytics.js")),
+    tags$head(tags$title("Response Times")),
     tabItems(
       # Introduction Tab
       tabItem(tabName = "intro", includeHTML("intro.html")),

@@ -5,7 +5,7 @@ library(shinydashboard)
 
 dashboardPage(
   skin = ("red"),
-  dashboardHeader(title = "Response Times",
+  dashboardHeader(title = "Response-Times",
                   
                   # Email Sharing link
                   tags$li(class = "dropdown",
@@ -75,7 +75,7 @@ dashboardPage(
   dashboardBody(
     tabItems(
       # Introduction Tab
-      tabItem(tabName = "intro", includeMarkdown("intro.md")),
+      tabItem(tabName = "intro", includeHTML("intro.html")),
       
       # Data Tab
       tabItem(tabName = "datafile",

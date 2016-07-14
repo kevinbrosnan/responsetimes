@@ -5,6 +5,7 @@ library(shinydashboard)
 
 dashboardPage(
   skin = ("red"),
+  tags$head(includeScript("www/js/google-analytics.js")),
   dashboardHeader(title = "Response-Times",
                   
                   # Email Sharing link

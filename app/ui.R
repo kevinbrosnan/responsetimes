@@ -97,6 +97,7 @@ dashboardPage(title = "Response-Times",
       
       # Data Tab
       tabItem(tabName = "datafile",
+              style = "overflow-y:scroll;",
               box(width = 12, 
                   title = "Response Times 1999-2014 - Select a column for Validation", 
                   DT::dataTableOutput("dtrt")
@@ -107,6 +108,7 @@ dashboardPage(title = "Response-Times",
       
       # Analysis Tab
       tabItem(tabName = "analysis",
+              style = "overflow-y:scroll;",
               box(width = 6, height = "280px", title = "User Inputs",
                   HTML("If you wish to focus on a particular Sex of athlete 
                        please select the appropriate radiobutton below."),

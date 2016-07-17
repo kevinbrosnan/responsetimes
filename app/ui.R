@@ -9,7 +9,7 @@ dashboardPage(title = "Response-Times",
                   
                   # Email Sharing link
                   tags$li(class = "dropdown",
-                          tags$a(href = "mailto:?Subject=Response Time of Elite Sprinters&Body=Effects of false-start disqualification rules on response-times of elite-standard sprinters. Brosnan, K.C., Hayes, K, Harrison, A.J. (2016). http://shiny.significantstats.org/shiny/responsetimes/ ",
+                          tags$a(href = "mailto:?Subject=Response Time of Elite Sprinters&Body=Effects of false-start disqualification rules on response-times of elite-standard sprinters. Brosnan, K.C., Hayes, K, Harrison, A.J. (2016). http://significantstats.org/shiny/responsetimes/ ",
                                  tags$img(height = "18px", 
                                           src = "images/email.png")
                           )
@@ -17,16 +17,16 @@ dashboardPage(title = "Response-Times",
                   
                   # Twitter Sharing Link
                   tags$li(class = "dropdown",
-                          tags$a(href = "http://twitter.com/share?url=http://shiny.significantstats.org/shiny/responsetimes/&text=Response-Times of Elite-Standard Sprinters from @kevbros93 @KevHayes235 and @drewhar06660675 in @JSportsSci ", 
+                          tags$a(href = "http://twitter.com/share?url=http://significantstats.org/shiny/responsetimes/&text=Response-Times of Elite-Standard Sprinters from @kevbros93 @KevHayes235 and @drewhar06660675 in @JSportsSci ", 
                                  target = "_blank", 
                                  tags$img(height = "18px", 
-                                          src="images/twitter.png")
+                                          src = "images/twitter.png")
                           )
                   ),
                   
                   # Facebook Sharing link
                   tags$li(class = "dropdown",
-                          tags$a(href = "http://www.facebook.com/sharer.php?u=http://shiny.significantstats.org/shiny/responsetimes/", 
+                          tags$a(href = "http://www.facebook.com/sharer.php?u=http://significantstats.org/shiny/responsetimes/", 
                                  target = "_blank", 
                                  tags$img(height = "18px", 
                                           src = "images/facebook.png")
@@ -35,7 +35,7 @@ dashboardPage(title = "Response-Times",
                   
                   # LinkedIn Sharing link
                   tags$li(class = "dropdown",
-                          tags$a(href = "http://www.linkedin.com/shareArticle?mini=true&url=http://shiny.significantstats.org/shiny/responsetimes/", 
+                          tags$a(href = "http://www.linkedin.com/shareArticle?mini=true&url=http://significantstats.org/shiny/responsetimes/", 
                                  target = "_blank", 
                                  tags$img(height = "18px", 
                                           src = "images/linkedin.png")
